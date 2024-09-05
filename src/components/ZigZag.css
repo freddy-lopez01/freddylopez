@@ -1,0 +1,87 @@
+.zigzag-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+    padding: 30px;
+    background-color: #faf9f6;
+    /*background-color: #faf9f6;#bdae97*/
+    /*background-color: #F4F5F4;*/
+}
+.zigzag-container h1{
+  color: rgba(38, 35, 35);
+  padding:40px;
+  font-size:80px;
+}
+
+.zigzag-card {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 40px 0; /* Increased margin to add more space between cards */
+    border-radius: 20px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);*/
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    background-color: transparent;
+    overflow: hidden;
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Move down slightly */
+    transition: opacity 1.5s ease, transform 1.5s ease; /* Increased transition duration to 1 second */
+}
+
+.card-image {
+    flex: 1;
+
+}
+.zigzag-card .card-image video {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding:25px;
+    width: 100%;
+    height: auto;
+    max-height: auto; /* Adjust the height to your preference */
+    object-fit: cover; /* Ensures the image/video covers the container proportionally */
+    border-radius: 20px;
+}
+
+.zigzag-card .card-image img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding:25px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card-description h2{
+  margin-bottom: 3%;
+}
+.card-description {
+    flex: 2;
+    padding: 110px; 
+    text-align: left;
+    font-size: 20px;
+}
+
+.zigzag-card.left {
+    flex-direction: row;
+}
+
+.zigzag-card.right {
+    flex-direction: row-reverse;
+}
+
+.fade-in {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Reset position */
+}
+
+@media screen and (max-width: 768px) {
+    .zigzag-card {
+        flex-direction: column;
+    }
+
+    .card-description {
+        text-align: center;
+    }
+}
+

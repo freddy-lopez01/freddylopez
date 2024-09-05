@@ -1,0 +1,37 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.main {
+
+  
+
+  height: 100vh;
+  /*background-image: url("assets/code-back.jpg");*/
+  /*background-image: url("assets/7G7A5513.jpg");*/
+  /*background-image: url("assets/code-back2.jpg");*/
+  background-size: 100% auto; /* Ensures the image fits the width of the container */
+  background-attachment: fixed; /* Keeps the background fixed */
+  background-position: center top; /* Centers the background image horizontally and aligns it to the top */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  transition: background-image 1s ease-in-out;
+
+}
+
+.submain {
+  padding-top: 50vh;
+
+}
+
+.social-comp {
+  background-color: rgba(250, 249, 246);
+  justify-content: center;
+  align-items: center;
+}
+
+.social-comp h1 {
+  color: rgba(38, 35, 35);
+  display: flex;
+  justify-content: center;
+  padding:40px;
+  font-size:60px;
+}
