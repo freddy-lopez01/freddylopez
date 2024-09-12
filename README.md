@@ -4,7 +4,7 @@ Welcome to my personal website! This project is a modern, minimalistic React web
 
 ## About the Project
 
-This website serves as my personal portfolio and professional hub, where I share insights about my work in software development, system administration, and various personal projects. The design focuses on simplicity and elegance, making it easy to navigate and explore.
+This website serves as my personal portfolio and professional hub, where I share my work in software development, system administration, and various personal projects. The design focuses on simplicity, making it easy to navigate and explore.
 
 The app is built using React with a component-based architecture, promoting reusability and scalability. Each section is designed to reflect both my technical skills and my personal interests.
 
