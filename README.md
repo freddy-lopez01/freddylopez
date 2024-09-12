@@ -24,4 +24,8 @@ The app is built using React with a component-based architecture, promoting reus
 
 ## Current previews
 
- 
+![Alt Text](./public/readme/home_screen.png)
+![Alt Text](./public/readme/Zig_cards.png)
+![Alt Text](./public/readme/Projects_tab.png)
+![Alt Text](./public/readme/ML_projects.png)
+![Alt Text](./public/readme/Gallery.png) 
