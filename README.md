@@ -28,4 +28,5 @@ The app is built using React with a component-based architecture, promoting reus
 ![Alt Text](./public/readme/Zag.png)
 ![Alt Text](./public/readme/Projects_tab.png)
 ![Alt Text](./public/readme/ML_projects.png)
-![Alt Text](./public/readme/Gallery.png) 
+![Alt Text](./public/readme/Gallery.png)
+![Alt Text](./public/readme/mobile_zigzag.png)
