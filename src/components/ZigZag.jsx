@@ -10,8 +10,8 @@ const cards = [
     },
     {
         video: 'demo_usage.mov',
-        title: '..a web designer',
-        description: 'I have worked on a couple projects with a few peers of mine creating web apps, stand-alone pc application, iOS appplications, and google extensions. I enjoy front-end development as it is an area where I can express my creativity in a visual sense.',
+        title: '..a Front-end Developer',
+        description: "I've collaborated with peers on various projects, developing web, stand-alone, iOS, and Google applications. My passion lies in front-end development, where I can blend creativity with functionality to design interfaces that effectively communicate information. I primarily work with React and Node.js, which offer a rich ecosystem of tools and libraries, making them essential frameworks in the front-end development landscape. I’m always eager to explore new tools and packages, constantly incorporating them into my projects. For me, learning is a lifelong journey, and web development allows me to embrace that every day.",
         id: 4
     },
     {

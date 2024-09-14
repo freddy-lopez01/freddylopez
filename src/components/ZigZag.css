@@ -12,6 +12,8 @@
   color: rgba(38, 35, 35);
   padding:40px;
   font-size:80px;
+  font-weight: 100;
+
 }
 
 .zigzag-card {
@@ -26,7 +28,7 @@
     overflow: hidden;
     opacity: 0; /* Start invisible */
     transform: translateY(20px); /* Move down slightly */
-    transition: opacity 1.5s ease, transform 1.5s ease; /* Increased transition duration to 1 second */
+    transition: opacity 2s ease, transform 2s ease; /* Increased transition duration to 1 second */
 }
 
 .card-image {
@@ -54,6 +56,7 @@
 
 .card-description h2{
   margin-bottom: 3%;
+  font-weight: 500;
 }
 .card-description {
     flex: 2;
@@ -78,10 +81,21 @@
 @media screen and (max-width: 768px) {
     .zigzag-card {
         flex-direction: column;
+        width: 100%;
+    }
+    .card-description {
+        padding: 20px; /* Reduce padding for smaller screens */
+        text-align: center;
+        font-size: 12px; /* Adjust font size for readability on mobile */
     }
 
-    .card-description {
-        text-align: center;
+    .zigzag-container h1 {
+        font-size: 40px; /* Adjust title font size */
+        padding: 20px; /* Reduce padding for the title */
+    }
+
+    .card-image {
+        width: 100%;
     }
 }
 

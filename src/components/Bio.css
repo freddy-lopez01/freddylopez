@@ -9,13 +9,12 @@
 
 .bio-container {
     opacity: 0; /* Start with the component invisible */
-    animation: fadeIn 2s ease forwards;
+    animation: fadeIn 2.5s ease forwards;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width:80%;
-    padding: 20px;
 }
 
 .bio-content {
@@ -41,6 +40,7 @@
 .bio-text h1 {
     margin: 0 0 10px 0;
     font-size: 5em;
+    font-weight: 100;
     color: rgba(250, 249, 246, .9);
 }
 
@@ -51,6 +51,9 @@
 }
 
 @media (max-width: 768px) {
+    .bio-container {
+        width: 100%; /* Adjusted to take up more screen space on mobile */
+    }
     .bio-content {
         flex-direction: column;
         align-items: center;
@@ -63,10 +66,19 @@
 
     .bio-photo {
         margin-bottom: 20px; /* Added to ensure space between the image and the text */
+        margin-right: 0; /* Remove the margin-right for better alignment */
     }
 
     .bio-photo img {
         width: 100px;
         height: 100px;
+    }
+    .bio-text h1 {
+        font-size: 1.2em; /* Reduced font size for mobile */
+    }
+
+    .bio-text p {
+        font-size: 1em; /* Adjusted paragraph font size for readability */
+        margin-bottom: 15px;
     }
 }

@@ -1,13 +1,5 @@
-@import "~slick-carousel/slick/slick.css"; 
-@import "~slick-carousel/slick/slick-theme.css";
-
 .main {
-
-
   height: 100vh;
-  /*background-image: url("assets/code-back.jpg");*/
-  /*background-image: url("assets/7G7A5513.jpg");*/
-  /*background-image: url("assets/code-back2.jpg");*/
   background-size: 100% auto; /* Ensures the image fits the width of the container */
   background-attachment: fixed; /* Keeps the background fixed */
   background-position: center top; /* Centers the background image horizontally and aligns it to the top */
@@ -35,4 +27,26 @@
   font-size:60px;
   font-weight: 100;
 
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-image: url("assets/desk_setup.JPG"); /* Mobile-specific background */
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-position: center;
+    background-attachment: scroll; /* Disable fixed attachment on mobile for better performance */
+  }
+
+  .submain {
+    padding-top: 30vh; /* Reduces top padding for mobile */
+  }
+
+  .social-comp h1 {
+    font-size: 40px; /* Reduce font size for mobile */
+    padding: 20px;
+  }
+
+  .social-comp {
+    padding: 10px;
+  }
 }
