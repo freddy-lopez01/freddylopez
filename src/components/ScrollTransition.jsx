@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import styles from "./ScrollTransition.css";
-
 const ScrollTransition = () => {
   useEffect(() => {
     const SHITVIDEO = document.querySelector('#video');

@@ -23,7 +23,8 @@
 }
 
 .navbar-logo {
-  color: #ecebe8;
+  /*color: #ecebe8;*/
+  color: #ffffff;
   cursor: pointer;
   text-decoration: none;
   font-size: 2.5rem;
@@ -34,7 +35,7 @@
 .menu-icon {
   display: none;
   font-size: 1.8rem;
-  color: #ecebe8;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -54,7 +55,7 @@
 }
 
 .nav-links {
-  color: #ecebe8;
+  color: #ffffff;
   display: flex;
   align-items: center;
   text-decoration: none;

@@ -5,6 +5,7 @@
   background-position: center top; /* Centers the background image horizontally and aligns it to the top */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   transition: background-image 1s ease-in-out;
+  background-color: #faf9f6;
 
 }
 
@@ -14,7 +15,7 @@
 }
 
 .social-comp {
-  background-color: rgba(250, 249, 246);
+  background-color: #ffffff;
   justify-content: center;
   align-items: center;
 }
