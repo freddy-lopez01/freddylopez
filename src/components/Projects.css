@@ -1,7 +1,10 @@
 .projects-main {
   margin-top: 20vh;
-} .projects-main h1{
+}
+
+.projects-main h1{
   font-size:50px;
+  font-weight: 200;
   display: flex;
   justify-content: center;
 }

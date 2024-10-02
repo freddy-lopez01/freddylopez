@@ -1,13 +1,15 @@
 import React from "react";
 import "./Projects.css";
 import ProjectGrid from './ProjectGrid';
+import MachineLearning from './MachineLearning'
+import WebApp from './WebApp'
 
 function Projects () {
     return (
         <>
             <div className="projects-main">
-              <h1>Project Catagories</h1>
-              <ProjectGrid/>
+              <MachineLearning/>
+              <WebApp/>
         
             </div>
         </>

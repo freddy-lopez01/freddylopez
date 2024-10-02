@@ -10,7 +10,6 @@ const MachineLearning = () => {
         <div className="p-1">
           <h2>Disease-Symptom Classifier</h2>
           <div className="proj-info">
-            <img src="disease.png" alt="CNN for MNIST" className="project-image" />
             <div className="about-section">
               <h3>Overview</h3>
               <p className="desc">This project implements a machine learning model to predict diseases based on 
@@ -27,12 +26,12 @@ const MachineLearning = () => {
               <p className="desc">symptom_Description.csv: Descriptions of each disease.</p>
               <p className="desc">decision_tree.png: Visualization of the trained decision tree.</p>
             </div>
+            <img src="disease.png" alt="CNN for MNIST" className="project-image" />
           </div>
         </div>
         <div className="p-2">
           <h2>Poisonous Mushroom Classifier</h2>
           <div className="proj-info">
-            <img src="mushroom.jpeg" alt="CNN for MNIST" className="project-image" />
             <div className="about-section">
               <h3>Overview</h3>
               <p className="desc">This model was trained utilizing a decision tree model and did NOT utilize libraries such as ScikitLearn, 
@@ -48,12 +47,12 @@ const MachineLearning = () => {
               <p className="desc">agaricuslepiotatrain1.csv: Training data of 6000 different mushroom specimins with 17 features</p>
               <p className="desc">agaricuslepiotatest1.csv: Testing data of 2126 different mushroom specimins with 17 features and target feature</p>
             </div>
+            <img src="mushroom.jpeg" alt="CNN for MNIST" className="project-image" />
           </div>
         </div>
         <div className="p-3">
           <h2>Convolutional Neural Network (CNN) for MNIST Classification </h2>
             <div className="proj-info">
-            <img src="Mnist.png" alt="CNN for MNIST" className="project-image" />
             <div className="about-section">
               <h3>Overview</h3>
               <p className="desc">This project implements a Convolutional Neural Network (CNN) using PyTorch to classify handwritten digits 
@@ -64,7 +63,12 @@ const MachineLearning = () => {
                 accuracy of about 93%. The overall loss during training was around 0.0155 over 10 epochs. Testing overall loss was less than 
                 0.0150 over 10 epochs.</p>
               <h3>Dataset Files</h3>
+              <p className="desc">Pull the training and test data from the dataset and convert data to tensors</p>
+              <p className="desc">Training dataset consists of 60,000 28x28 pixels images with no RGB color values associated with the images</p>
+              <p className="desc">Testing dataset consists of 10,000 28x28 pixels images also with no RGB color values associated with the images</p>
+              <p className="desc">Images classes consist of the images with the numbers 1-9</p>
             </div>
+            <img src="Mnist.png" alt="CNN for MNIST" className="project-image" />
           </div>
         </div>
       </div>
