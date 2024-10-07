@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/freddylopez/static/css/main.1778dad6.css",
+    "main.js": "/freddylopez/static/js/main.f53305f3.js",
+    "static/media/desk_setup.JPG": "/freddylopez/static/media/desk_setup.36c6cb4d0b5999bbed15.JPG",
+    "index.html": "/freddylopez/index.html",
+    "main.1778dad6.css.map": "/freddylopez/static/css/main.1778dad6.css.map",
+    "main.f53305f3.js.map": "/freddylopez/static/js/main.f53305f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1778dad6.css",
+    "static/js/main.f53305f3.js"
+  ]
+}
