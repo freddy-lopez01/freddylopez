@@ -1,7 +1,7 @@
 {
+  "homepage": "https://freddy-lopez01.github.io/freddylopez",
   "name": "freddylopez",
   "version": "0.1.0",
-  "hostname": "https://freddy-lopez01.github.io/freddylopez",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
