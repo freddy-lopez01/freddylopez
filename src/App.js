@@ -15,13 +15,12 @@ function App() {
     <Router>
       <NavBar/>
       <Routes>
-        <Route path='/' exact Component={Home}/>
-        <Route path='/projects' exact Component={Projects}/>
-        <Route path='/gallery' exact Component={Gallery}/> 
-        <Route path='/machine-learning' exact Component={MachineLearning}/> 
+        <Route path='/' element={<Home/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+        <Route path='/gallery' element={<Gallery/>}/> 
+        <Route path='/machine-learning' element={<MachineLearning/>}/> 
       </Routes>
     </Router>
-
     </>
   );
 }
